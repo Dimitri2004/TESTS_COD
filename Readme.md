@@ -15,3 +15,10 @@ Entrega tu repositorio con el código y los test. Además un `Readme` explicando
 Formato del `Readme` *1 punto*
 
 ---
+
+### Resolución
+
+#### Test parametrizados
+
+Empleo el asserTrue para comprobar si el DNI  es el pedido y entonces veremos como podemos sber si los numeros y el tamaño d cada uno le corresponde al resultado del resto.
+
