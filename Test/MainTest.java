@@ -37,8 +37,8 @@ public class MainTest{
     }
     @Test
     @DisplayName("calcularLetraDNI")
-    public void testcomprobarLetraDNI(){
-        //al calcular la letra del dni ver que el dni no es mayor que 8
+    public void testcomprobarLongitud(){
+        //Comprobamos que la letra del DNI es correcta
         assertEquals('T',Main.calcularLetraDNI("00000000"));
         assertEquals('R',Main.calcularLetraDNI("00000001"));
         assertEquals('W',Main.calcularLetraDNI("00000002"));
@@ -62,6 +62,9 @@ public class MainTest{
         assertEquals('C',Main.calcularLetraDNI("00000020"));
         assertEquals('K',Main.calcularLetraDNI("00000021"));
         assertEquals('E',Main.calcularLetraDNI("00000022"));
+
+
+
 
     }
 
