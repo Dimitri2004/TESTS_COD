@@ -15,18 +15,16 @@ Entrega tu repositorio con el código y los test. Además un `Readme` explicando
 Formato del `Readme` *1 punto*
 
 ---
-
+DIMA APARICIO PEREIRA
 ### Resolución
 
 #### Test parametrizados
 
-Empleo el asserTrue para comprobar si el DNI  es el pedido y entonces veremos como podemos sber si los numeros y el tamaño d cada uno le corresponde al resultado del resto.
+Empleo el asserTrue y assertFalse para comprobar si el DNI  es el pedido y entonces veremos como podemos sber si los numeros y el tamaño d cada uno le corresponde al resultado del resto.
+
 #### Error en el código
 
-El error en el código es que el DNI no tiene que ser mayor de 8 caracteres, por lo que en el test se debería de comprobar que el DNI no sea mayor de 8 caracteres.
+El error en el código es que no se comprueba la longitud de la cadena del DNI, por lo que si no se comprueba la longitud de la cadena del DNI, el código no funcionará correctamente. Para solucionar este problema, se debe añadir una comprobación de la longitud de la cadena del DNI en el código.
 
-#### Comprobación de la longitud de la string
+#### Cambios en los tests
 
-Cogemos la string antes de hacerle un tes con un @BeforeAll o podemos ir comprobando con un @beforeEach cada una de las pruebas que realizaremos para comprobar que la longitud de la string es la correcta.
-
----

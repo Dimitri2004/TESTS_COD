@@ -6,7 +6,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        if (comprobarDNI("00000000",'T')) {
+        if (comprobarDNI("00000003",'A')) {
             System.out.println("El DNI es correcto");
         } else {
             System.out.println("El DNI no es correcto");
@@ -19,7 +19,7 @@ public class Main {
          * @param letra
          * @return true si es correcto, false si no lo es
          */
-        public static boolean comprobarDNI (String dni, char letra){
+        public static   boolean comprobarDNI (String dni, char letra){
             // calcula la letra del DNI
             char letraCalculada = calcularLetraDNI(dni);
             // compara la letra del DNI con la letra pasada por parámetro
