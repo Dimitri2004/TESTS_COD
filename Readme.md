@@ -14,4 +14,4 @@ El error en el código es que no se comprueba la longitud de la cadena del DNI, 
 
 #### Cambios en los tests
 
-igualar el valor de la variable dni a la cadena de texto "12345678Z" hacia otra cadena de misma longitud ya correcta para que el test funcione correctamente.
+igualar el valor de la variable dni a la cadena de texto  hacia otra cadena de misma longitud ya correcta para que el test funcione correctamente.
