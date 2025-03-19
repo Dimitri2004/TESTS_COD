@@ -6,7 +6,8 @@ import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class MainTest {
-    //Corrijo el nombre de la clase
+
+
     @Test
     @DisplayName("Test de comprobarDNI")
     public void testComprobarDNI() {
@@ -24,12 +25,6 @@ public class MainTest {
         assertEquals('R', Main.calcularLetraDNI("00000001"));
     }
 
-
-
-
-//    @Test
-//    @Disabled
-//    @DisplayName("Test de calcularLetraDNI")
 
 
 }
